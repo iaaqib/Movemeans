@@ -59,14 +59,13 @@
 		7B7514E22078728A00CD63C9 /* Movemeans */ = {
 			isa = PBXGroup;
 			children = (
+				7B9B05072079FE32005BEF49 /* Managers */,
 				7B7514E32078728A00CD63C9 /* AppDelegate.swift */,
 				7B7514E52078728A00CD63C9 /* ViewController.swift */,
 				7B7514E72078728A00CD63C9 /* Main.storyboard */,
 				7B7514EA2078728A00CD63C9 /* Assets.xcassets */,
 				7B7514EC2078728A00CD63C9 /* LaunchScreen.storyboard */,
 				7B7514EF2078728A00CD63C9 /* Info.plist */,
-				7B7514F52078874B00CD63C9 /* LocationManager.swift */,
-				7BE660122078B01E007BE24B /* MotionManager.swift */,
 			);
 			path = Movemeans;
 			sourceTree = "<group>";
@@ -76,6 +75,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B9B05072079FE32005BEF49 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7B7514F52078874B00CD63C9 /* LocationManager.swift */,
+				7BE660122078B01E007BE24B /* MotionManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
