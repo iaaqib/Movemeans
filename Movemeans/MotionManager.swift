@@ -35,11 +35,11 @@ class MotionManager: NSObject {
     private enum MotionMeans: String {
         case stationary = "Stationary"
         case cycling = "Cycling"
-        case automotive = "In a Car"
+        case automotive = "Driving"
         case walking = "Walking"
         case running = "Running"
-        case cycleStationary = "On Cycle, Stationary"
-        case automotiveStationary = "In Car, Stationary"
+        case cycleStationary = "On a Cycle, Stationary"
+        case automotiveStationary = "In a Car, Stationary"
         case unknown = "Unknown"
     }
     
